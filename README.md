@@ -79,4 +79,3 @@ The PDFs and workbook were generated from the local MySQL project database. The 
 ## Project notes
 
 This is an academic demonstration, not a production shelter-management system. It does not include production authentication, payment processing, identity verification, or deployment hardening. See `dbms_project_report.md`, `academic_topics.md`, and `syllabus_coverage.md` for additional course material.
-
