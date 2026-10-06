@@ -1,1 +1,0 @@
-{% extends 'base.html' %}{% block content %}<div class="card p-4"><h4>{{title}}</h4><div class="table-responsive"><table class="table"><thead><tr>{% for h in headers %}<th>{{h}}</th>{% endfor %}</tr></thead><tbody>{% for r in rows %}<tr>{% for v in r.values() %}<td>{{v}}</td>{% endfor %}</tr>{% endfor %}</tbody></table></div></div>{% endblock %}
